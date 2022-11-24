@@ -41,7 +41,7 @@ export default class ServerMain{
     }
 
     sockets(){
-
+        
         this.io.on('connection', socketController);
     }
 
